@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    width: 100%;
+    
+}
+.container{
+    width: 84%;
+    margin: auto;
+    
+}
+.header{
+    position: relative;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+}
+.header-body-section{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+.header-body1-section
+{
+   margin-top: -330px;
+    top: 0;
+    width: 100%;
+    color: white;
+
+}
+
+nav{
+    font-weight: 500;
+    height: 50px;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logocontainer{
+    display: flex;
+    align-items: center;
+}
+.logocontainer p{
+    padding: 5px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li{
+    padding: 0px 3px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.nav ul li a{
+    color: inherit;
+    text-decoration: none;
+
+}
+.Zomato-logo{
+    width: 300px;
+
+}
+.container-header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    flex-direction: column;
+}
+.header-body-content{
+    position: relative;
+    top: -50px;
+}
+.header-body-section-discover{
+    font-size: 40px;
+    margin: 25px 0;
+}
+.Search-container{
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    max-width: 750px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    color: #000;
+}
+.location-map{
+    color: rgb(249, 122, 122);
+    font-size: 22px;
+}
+.caret-up{
+    color: #585050;
+}
+.dectationLoacation input{
+    border: none;
+    font-size: 15px;
+    width: 180px;
+
+}
+.Search-items{
+    color: #695f5f;
+    font-size: 18px;
+}
+.line{
+    padding: 8px;
+}
+.Search-items input{
+    max-width: 100%;
+    width: 400px;
+    font-size: 15px;
+    border: none;
+    padding: 5 10px;
+    outline: none;
+}
+
+/*** Section 1 FeatureS ***/
+.section-1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.container-feature{
+    display: flex;
+    justify-content: space-between;
+}
+.feratures{
+    overflow: hidden;
+    border-radius: 15px;
+    border: 0.1px solid rgba(216, 214, 214, 0.848);
+}
+.feature-image{
+    width: 360px;
+    height: 180px;
+    overflow: hidden;
+}
+.feature-image img{
+    width: 100%;
+    
+}
+.features h3,
+.features p{
+   padding-right: 200px; 
+}
+.feratures:hover{
+    transition: transform0.5s;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+section{
+   /** padding: 50px 0; **/
+}
+
+
+
+/*** Section 2 Features ***/
+.Section-2-Left h1{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.Section-2-Left p{
+    font-size: 20px;
+    margin-top: 0;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.Section-2-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Section-2-Right{
+    align-self: flex-end;
+    color: rgb(220, 101, 101);
+}
+.section-2-items{
+    max-width: 265px;
+    height: 300px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 0.7em;
+}
+.section-2-items:first-child{
+    margin-left: 0;
+}
+.section-2-items img{
+    width: 120%;
+    height: 105%;
+   
+    
+}
+.section-2-image-description{
+    padding: 0 10px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    box-shadow: inset -00px -00px 5px rgba(0,0,0,0.1),
+    inset 0px 0px 50px rgba(0,0,0,0.1);
+}
+.section-2-image-description p{
+    margin: 0;
+    font-size: 18px;
+}
+.section-2-image-description p:nth-child(2){
+    font-size: 16px;
+}
+.section-2-body{
+    display: flex;
+}
+
+/*** Section-3 ***/
+
+.Section-3{
+    width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.Section-3-heading{
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 400px;
+}
+.Section-3-container .Section-3-items{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.Section-3-container .Section-3-items .Section-3-item{
+    width: 100%;
+    max-width: 26%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(215, 215, 215);
+    padding: 15px;
+}
+.Section-3-item .item .item-head{
+    font-size: 1.2rem;
+    color: rgb(63, 60, 60);
+    margin: 0;
+    margin-bottom: 5px;
+}
+.Search-item .item-subhead{
+    font-weight: lighter;
+    margin: 0;
+}
+
+/* Section 4 */
+
+.Section-4{
+    height: 620px;
+    background-color: rgb(255, 251, 247);
+}
+.Section-4-Container{
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Section-4-img{
+    width: 40%;
+}
+.Section-4-img img{
+    width: 350px;
+}
+.Section-4-Contant h1{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin: 0;
+    margin-bottom: 15px ;
+}
+.Section-4-Contant p{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 0;
+    margin-bottom: 15px ;
+}
+.Section-4-Download img{
+    width: 35%;
+}
+.btn h1{
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 0px ;
+   
+}
+.btn button{
+    width: 900px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 11px;
+    margin-left: 133px;
+    font-size: 22px;
+   
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: rgb(235, 231, 231);
+    margin-top: 44px;
+    padding: 44px;
+    
+}
+
+
